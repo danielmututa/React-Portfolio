@@ -1,14 +1,14 @@
 
 import './App.css';
-import About from './componets/About/About';
-import Home from './componets/Home/Home';
-import Navbar from './componets/Navbar/Navbar';
+import About from './components/About/About';
+import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
 // import { Routes, Route } from 'react-router-dom';
-import Portfolio from './componets/Portfolio/Portfolio';
-import Contact from './componets/Contact/Contact';
-import Experience from './componets/Experience/Experience';
-import Footer from './componets/Footer/Footer';
-import Menu from './componets/Navbar/Menu';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
+import Experience from './components/Experience/Experience';
+import Footer from './components/Footer/Footer';
+import Menu from './components/Navbar/Menu';
 // import { Link}  from 'react-scroll'
 // import { Fragment } from 'react';
 // import { Link } from 'react-scroll';
