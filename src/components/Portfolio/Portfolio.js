@@ -12,6 +12,14 @@ const Portfolio = () => {
       
 
 
+    // Function to handle button click
+    const handleButtonClick = (link) => {
+      if (link) {
+          window.open(link, '_blank'); // Opens link in new tab
+      }
+  };
+
+
          
 
 
@@ -31,6 +39,7 @@ const Portfolio = () => {
       <div className="portfolio-staf">
         {
             items.map((item,index)=>(
+
                 <div className="portfolio--map" key={index}>
                   <img src={require('../images/' + item.img)} alt="" className="porfolio-img" />
                   <div className="portfolio--cover">
@@ -38,7 +47,15 @@ const Portfolio = () => {
                   </div>
                   <div className="portfolio-des-view">
                     <p>{item.description}</p>
-                    <button>{item.button}</button>
+
+                    <button
+                     onClick={() => handleButtonClick(item.link)}
+                     // Optionally disable button if no link (for coming soon items)
+                     disabled={!item.link}
+                     // Optional: add different styling for disabled buttons
+                     className={!item.link ? 'disabled-button' : ''}
+
+                    >{item.button} </button>
                   </div>
                 </div>
             ))

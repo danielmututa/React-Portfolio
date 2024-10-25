@@ -226,7 +226,12 @@
     justify-content: center;
     align-items: center;
     color: #2C3E50;
+    cursor: pointer;
    
+}
+
+.navbar--p-c{
+cursor: pointer;
 }
 
 .navbar--alllinks{
@@ -415,6 +420,7 @@ padding: 80px 82px 80px 82px;
     padding: 5px 0px 20px 0px;
 }
 
+
 .portfolio-btn button{
    padding: 4px 12px;
    background-color: transparent;
@@ -423,6 +429,7 @@ padding: 80px 82px 80px 82px;
    font-family: 800;
    font-family: 'Montserrat-Bold.ttf';
  color: #2C3E50;
+ cursor: pointer;
 }
 
 #portfolio--all-container h2{

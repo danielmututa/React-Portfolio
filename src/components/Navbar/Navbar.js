@@ -17,6 +17,7 @@ const Navbar = () => {
             duration={500} 
             offset={50} 
             delay={0}
+            className="navbar--p-c"
           >
             <div className='navbar-p-color'>P</div>ortfolio
           </Link>
