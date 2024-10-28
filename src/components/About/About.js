@@ -1,6 +1,7 @@
 import React from 'react'
 import one from '../images/one.jpg'
 import danielcv from "../images/Daniel Mututa Mutandwa CV - Copy.pdf"
+import { Link } from 'react-router-dom'
 
 const About = () => {
 
@@ -23,16 +24,16 @@ const About = () => {
       <div className="about--mecontainer">
           <h3>About me</h3>
 
-        <p>Hi, i'm Daniel Mututa, a Frontend Developer with expertise in creating responsive and user-friendly websites. In addition to my web development skills, i have also gained experience in UX/UI design and digital Marketing, with a focus on driving engagement and conversion. I also volunteered teaching Scratch programming to students in schools, inspiring the next generation of coders.</p> 
+        <p>Hi, I'm Daniel Mututa, a highly motivated and detail-oriented Frontend Developer with extensive expertise in crafting responsive, user-friendly, and visually appealing websites that provide exceptional user experiences. Additionally, I bring skills in UX/UI design, leveraging human-centered principles to create intuitive and engaging interfaces, and Digital Marketing, optimizing websites for maximum engagement, conversion, and business growth.</p> 
         
 <div className="about-two--buttons">
     <button  onClick={handleDownloadCV} >Download CV</button>
-    <button>Read More</button>
+    <Link to='/about-more'>Read More</Link>
 </div>
       </div>
 
       <div className="about--meimg">
-        <img className='about--imgcirle' src={one} alt="" />
+        <img className='about--imgcirle' src={one} alt="selfpic" />
       </div>
 
     </div>

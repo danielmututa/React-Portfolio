@@ -8,13 +8,18 @@ import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import Menu from './components/Navbar/Menu';
-
+import { Routes ,Route } from 'react-router-dom';
+import Aboutmore from './components/About/Aboutmore';
 function App() {
 
 
 
   return (
     <div className="App">
+
+{/* <Routes>
+  <Route path='/moreabout' element={<Aboutmore/>}/>
+</Routes>
 
 
      <Navbar />
@@ -25,7 +30,26 @@ function App() {
       <Experience id="experience" />
       <Contact id="contact" />
 
-      <Footer />
+      <Footer /> */}
+
+<Routes>
+
+<Route path="/" element={
+          <div className="App">
+            <Navbar />
+            <Menu />
+            <Home id="home" />
+            <About id="about" />
+            <Portfolio id="portfolio" />
+            <Experience id="experience" />
+            <Contact id="contact" />
+            <Footer />
+          </div>
+        } />
+        <Route path="/about-more" element={<Aboutmore/>} />
+      </Routes>
+
+     
  
 
     </div>
