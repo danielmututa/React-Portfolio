@@ -6,9 +6,9 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => {
 
   const footericons= [
-    {icon:faFacebookF},
-    {icon:faLinkedinIn},
-    {icon:faWhatsapp}
+    {icon:faFacebookF, link:"https://www.facebook.com/profile.php?id=100079493274713"},
+    {icon:faLinkedinIn, link:"https://www.linkedin.com/in/daniel-mututa-7483032aa/"},
+    {icon:faWhatsapp, link: "https://wa.me/0775306263"}
   ]
 
 
@@ -17,8 +17,14 @@ const Footer = () => {
         <h3>Portfolio</h3>
         <div className="footer--allicons">
             {
-                footericons.map((item) => (
-                    <div className="footer--resvered"> <FontAwesomeIcon className='footer-icon' icon={item.icon}/> </div>
+                footericons.map((item, index) => (
+
+                    // <div className="footer--resvered"> <FontAwesomeIcon className='footer-icon' icon={item.icon}/> </div>
+
+                    <a key={index} href={item.link} target="_blank" rel="noopener noreferrer" className="footer--resvered">
+                    <FontAwesomeIcon className='footer-icon' icon={item.icon} />
+                  </a>
+      
                 ))
 
             }

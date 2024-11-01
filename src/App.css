@@ -399,6 +399,17 @@ font-family: 'Montserrat-Bold.ttf';
     border: 1px solid #2C3E50;
     border-radius: 5px;
     font-family: 'Montserrat-Bold.ttf';
+    transition: .9s;
+}
+
+.about-two--buttons button:hover{
+    background-color: #2C3E50;
+    color: #fff;
+}
+
+.about-two--buttons a:hover{
+    background-color: #2C3E50;
+    color: #fff;
 }
 .about-two--buttons a{
     color: #000000;
@@ -414,6 +425,7 @@ font-family: 'Montserrat-Bold.ttf';
     border: 1px solid #2C3E50;
     border-radius: 5px;
     font-family: 'Montserrat-Bold.ttf';
+    transition: .9s;
 }
 
 
@@ -469,14 +481,20 @@ border-radius: 8%;
     justify-content: space-evenly;
     /* padding-left: 5px; */
     width: 80px;
-    font-size: 14px;
+    font-size: 13px;
     height: 38px;
     font-weight: 600;
     background-color: transparent;
     border: 1px solid #2C3E50;
     border-radius: 5px;
     font-family: 'Montserrat-Bold.ttf'; 
-    margin-top: 10px;
+    margin-top: 13px;
+    transition: .9s;
+}
+
+.aboutmore--flexcontent button:hover{
+    background-color: #2C3E50;
+    color: #fff;
 }
 
 
@@ -608,7 +626,15 @@ padding: 80px 82px 80px 82px;
     color: #fff;
     font-family: 'Montserrat-Regular.ttf';
     font-weight: 600;
+    transition: .9s;
   
+}
+
+.portfolio-des-view button:hover{
+background-color: #fff;
+/* border:  1px solid #; */
+color: #000000;
+font-weight: 800;
 }
 
 
@@ -738,6 +764,12 @@ font-family: 'Montserrat-Regular.ttf';
     border:1px solid #2C3E50;
     background-color: transparent;
     font-weight: 600;
+    transition: .9s;
+}
+
+.contact-msg:hover{
+    background-color: #2C3E50;
+    color: #fff;
 }
 
 /* END CONTACT */
@@ -1367,6 +1399,38 @@ e */
         font-size: 12px;
         height: 34px;
     }
+
+    .aboutmore--container {
+        padding: 0px 40px;
+        height: 56vh;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aboutmore--flexcontent h3 {
+      
+        font-size: 23px;
+        padding-bottom: 5px;
+    }
+
+    .aboutmore--flexcontent p {
+        font-size: 15px;
+    }
+
+    .aboutmore--flexcontent button {
+        
+        width: 80px;
+        font-size: 12px;
+        height: 36px;
+        
+       
+    }
+
+    .aboutmore--flex--img {
+        height: 357px;
+        width: 45%;
+    }
     /* end--about */
 
     /* portfolio */
@@ -1676,6 +1740,42 @@ e */
     width: 99px;
     font-size: 12px;
     height: 36px;
+}
+
+
+
+
+
+.aboutmore--container {
+    padding: 0px 40px;
+    height: 48vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutmore--flexcontent h3 {
+  
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.aboutmore--flexcontent p {
+    font-size: 15px;
+}
+
+.aboutmore--flexcontent button {
+    
+    width: 80px;
+    font-size: 12px;
+    height: 36px;
+    
+   
+}
+
+.aboutmore--flex--img {
+    height: 357px;
+    width: 45%;
 }
 /* end--about */
 
