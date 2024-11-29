@@ -39,12 +39,12 @@
     },
     {
         id:'5',
-        button:'Coming Soon >',
+        button:'View Website >',
         name:'SPEEDBIKES',
         description:'Rev up your ride! SPEEDBIKES e-commerce platform offering motorbikes, bicycles, genuine parts, and accessories, built with React, Node.js, Express, and MongoDB. Launching in 30 days!',
         img:'speedbike.jpg',
-        type:'coming soon',
-        link:''
+        type:'personal projects',
+        link:'https://speedbikes.netlify.app'
     },
 ];
 

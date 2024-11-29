@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+   
 }
 
 @font-face {
@@ -310,6 +311,8 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
+    --v1: calc(max(9vw, 20vh));
  
 }
 
@@ -347,7 +350,56 @@ font-family: 'Montserrat-Bold.ttf';
 }
 
 
+
+
+/* 
+.home-curser{
+    position: absolute;
+  width: calc(var(--v1) * 2.5);
+  height: calc(var(--v1) * 2.5);
+  border-radius: 50%;
+  animation: anim 2s linear infinite;
+  visibility: hidden;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  }
+  
+  @keyframes anim {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  body:hover .home-curser {
+    background: radial-gradient(circle, rgb(77, 151, 7) 0%, rgba(0,255,0,0) 70%);
+    visibility: visible;
+  }
+   */
+
+
+
+
 /* END-HOME SECTION */
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ABOUT-SECTION */
