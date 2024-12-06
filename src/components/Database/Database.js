@@ -52,7 +52,7 @@
         name:'OMINIVIEW',
         description:"Introducing OMINIVIEW! I've built a cutting-edge platform for telecommunications, solar energy, and electronics repair using React, Node.js, Express, and MongoDB. Launching in 15 days! Stay tuned!",
         img:'banner-img01.jpg',
-        type:'personal projects',
+        type:'coming soon',
         link:'https://ominiview.netlify.app'
     },
 ];
