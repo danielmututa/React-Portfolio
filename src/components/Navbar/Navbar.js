@@ -1,13 +1,28 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
- 
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 100) { // Adjust this value as needed
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <div className='navbar--container'>
-    <div className="navbar-logo"> 
+    {/* <div className="navbar-logo">  */}
+    <div  className={`navbar-logo ${scrolled ? 'scrolled' : ''}`}> 
 
     <Link 
             activeClass="active" 
@@ -19,7 +34,9 @@ const Navbar = () => {
             delay={0}
             className="navbar--p-c"
           >
-            <div className='navbar-p-color'>P</div>ortfolio
+            <div className='navbar-p-color'>P</div>
+            <span className="portfolio-text">ortfolio</span>
+            {/* <div className='navbar-p-color'>P</div>ortfolio */}
           </Link>
 
      

@@ -1,6 +1,6 @@
 import React from 'react'
-import one from '../images/one.jpg'
-import danielcv from "../images/Daniel Mututa Mutandwa CV - Copy.pdf"
+import one from '../images/Me.jpg'
+import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -9,11 +9,12 @@ const About = () => {
  // Create a link element
  const link = document.createElement('a');
  link.href = danielcv;
- link.download = 'Daniel Mututa Mutandwa CV - Copy.pdf';
+ link.download = 'Daniel Mutandwa Mututa CV.pdf';
  document.body.appendChild(link);
  link.click();
  document.body.removeChild(link); 
 };
+
 
 
 
