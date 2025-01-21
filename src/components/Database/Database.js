@@ -31,16 +31,16 @@
         link:'https://danielmututa.github.io/Tigzozo/'
     },
    
-    
     {
         id:'4',
         button:'View Website >',
-        name:'VANS',
-        description:'VANS e-commerce platform, built collaboratively using React for dynamic interfaces, Node.js for server-side logic, MongoDB for scalable data storage, and agile development methodologies for optimal results',
-        img:'van-life.png',
-        type:'collaboration',
-        link:'https://kambuzuma-vanlife.netlify.app'
+        name:'BOOTSTRAP',
+        description:'Highlighting my web development proficiency with HTML, CSS, and JavaScript, focusing on responsive layouts, clean code, and engaging user interactions.',
+        img:'bootstrape.png',
+        type:'personal projects',
+        link:'https://danielmututa.github.io/Bootstrape-portfolio/'
     },
+    
     
     {
         id:'5',
@@ -55,12 +55,13 @@
     {
         id:'6',
         button:'View Website >',
-        name:'BOOTSTRAP',
-        description:'Highlighting my web development proficiency with HTML, CSS, and JavaScript, focusing on responsive layouts, clean code, and engaging user interactions.',
-        img:'bootstrape.png',
-        type:'personal projects',
-        link:'https://danielmututa.github.io/Bootstrape-portfolio/'
+        name:'VANS',
+        description:'VANS e-commerce platform, built collaboratively using React for dynamic interfaces, Node.js for server-side logic, MongoDB for scalable data storage, and agile development methodologies for optimal results',
+        img:'van-life.png',
+        type:'collaboration',
+        link:'https://kambuzuma-vanlife.netlify.app'
     },
+    
 
    
 ];
