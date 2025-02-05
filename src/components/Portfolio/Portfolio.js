@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import Datafile from '../Database/Database'
+import { useNavigate } from 'react-router-dom';
 
 const Portfolio = () => {
 
@@ -19,6 +20,11 @@ const Portfolio = () => {
       }
   };
 
+  const navigate = useNavigate();
+  
+    const goToContact = () => {
+      navigate("/contact");
+    };
 
          
 
@@ -72,7 +78,7 @@ const Portfolio = () => {
     </div>
     <div className="portfolio-contactme">
       <p>Let's build something together</p>
-      <button className='w'>Contact me</button>
+      <button onClick={goToContact} className='w'>Contact me</button>
     </div>
 
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Experience = () => {
@@ -12,13 +13,28 @@ const Experience = () => {
   //   {img:"MONGODB.png" , type:'MONGODB'}
   // ]
 
+
+
+    const handleDownloadCV = () => {
+ // Create a link element
+ const link = document.createElement('a');
+ link.href = danielcv;
+ link.download = 'Daniel Mutandwa Mututa CV.pdf';
+ document.body.appendChild(link);
+ link.click();
+ document.body.removeChild(link); 
+};
+
+
+
+
   return (
     <div id='experience--container'>
        <h2>RESUME</h2>
 
        <div className="experience-map-container">
         <h3>Experince</h3>
-        <button className='experince-button'> <FontAwesomeIcon icon={faDownload} /> Download Resume</button>
+        <button onClick={handleDownloadCV}  className='experince-button'> <FontAwesomeIcon icon={faDownload} /> Download Resume</button>
        </div>
 
 

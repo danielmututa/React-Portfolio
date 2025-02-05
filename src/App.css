@@ -433,8 +433,14 @@ font-family: 'Montserrat-Bold.ttf';
 
 
 
+.navvbar--link-menu {
+    text-decoration: none;
+}
 
-
+.menu-list li .white {
+    text-decoration: none;
+    color:#fff;
+}
 
 
 
@@ -519,6 +525,9 @@ font-family: 'Montserrat-Bold.ttf';
 }
 
 
+.about-black{
+color: #2C3E50;
+}
 
 
 
@@ -1374,7 +1383,7 @@ font-family: 'Montserrat-Bold.ttf';
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 20px 30px 20px;
+    padding: 8px 20px 30px 20px;
 }
 
 #portfolio--all-container h2 {
@@ -1456,7 +1465,7 @@ font-family: 'Montserrat-Bold.ttf';
 
 /* experince */
 #experience--container {
-    padding: 30px 20px;
+    padding: 8px 20px 30px 20px;
 }
 
 .experience-map-container h3 {
@@ -1556,7 +1565,7 @@ font-family: 'Montserrat-Bold.ttf';
 
 /* contsct */
 #contact--container {
-    padding: 30px 20px 0px 20px;
+    padding: 8px 20px 0px 20px;
 }
 
 .contact--section-text h2 {

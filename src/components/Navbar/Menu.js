@@ -52,6 +52,7 @@ const Menu = () => {
                 <li onClick={handleClose}> <Link 
                 onClick={handleClose}
                 to="/" 
+                    className="white"
                 >Home</Link></li>
 
 

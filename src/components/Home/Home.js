@@ -2,9 +2,20 @@ import React, { useEffect,useRef,useState } from 'react';
 import Typed from 'typed.js';
 import bannerimag from '../images/avtor.png';
 import About from '../About/About';
+import { useNavigate } from "react-router-dom";
+
 
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
+  const goToResume = () => {
+    navigate("/resume");
+  };
+  const goToProjects = () => {
+    navigate("/projects");
+  };
 
 
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -67,8 +78,8 @@ const Home = () => {
       </div>
 
       <div className="home-buttons">
-        <button className='home-btns1'>Resume</button>
-        <button className='home-btns'>Projects</button>
+        <button onClick={goToResume} className='home-btns1'>Resume</button>
+        <button onClick={goToProjects} className='home-btns'>Projects</button>
       </div>
 
 

@@ -40,10 +40,18 @@ const About = () => {
 </div> */}
 
 <div className="about-two-icons">
-<FontAwesomeIcon icon={ faGithub }  className='abouttwoicons'/>
-<FontAwesomeIcon icon={ faLinkedin} className='abouttwoicons'/>
+<a className='about-black' href="https://github.com/danielmututa/" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} className="abouttwoicons" />
+      </a>
+
+      <a className='about-black' href="https://www.linkedin.com/in/daniel-mututa-7483032aa/" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faLinkedin} className="abouttwoicons" />
+      </a>
 </div>
       </div>
+
+
+      
 
      
 
