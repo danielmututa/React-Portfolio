@@ -1,6 +1,7 @@
 import React, { useEffect,useRef,useState } from 'react';
 import Typed from 'typed.js';
 import bannerimag from '../images/avtor.png';
+import About from '../About/About';
 
 
 const Home = () => {
@@ -42,7 +43,7 @@ const Home = () => {
       }, []);
       
   return (
-
+<div className="">
     <div id='home-container'>
 
 <div
@@ -65,12 +66,19 @@ const Home = () => {
         <img className='hoemoimgbanner' src={bannerimag} alt="" />
       </div>
 
-      
+      <div className="home-buttons">
+        <button className='home-btns1'>Resume</button>
+        <button className='home-btns'>Projects</button>
+      </div>
 
 
       </div>
       
+     
     </div>
+     <About/>
+     </div>
+     
   );
 };
 

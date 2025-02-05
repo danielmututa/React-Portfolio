@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Experience = () => {
 
   const experince = [
@@ -13,19 +14,88 @@ const Experience = () => {
 
   return (
     <div id='experience--container'>
-       <h2>EXPERIENCE</h2>
+       <h2>RESUME</h2>
 
        <div className="experience-map-container">
-        {
-          experince.map((item, index)=> (
-         <div className="experience--card" key={index}>
-           <img src={require('../images/' + item.img)} className='experince--img' alt="" />
-           <div className="experince--border-line"><span></span></div>
-           <p>{item.type}</p>
-        </div>
-          ))  
-        }
+        <h3>Experince</h3>
+        <button className='experince-button'> <FontAwesomeIcon icon={faDownload} /> Download Resume</button>
        </div>
+
+
+       <div className="experince-types">
+        <div className="experinceflex-gap">
+
+     
+        <div className="experince-inner">
+          <p>2024-present</p>
+          <p>Web Developer</p>
+        </div>
+
+        <div className="experince-alltypes">
+          <p className='experince-ps'>HTML5</p>
+          <p className='experince-ps'>Tailwind</p>
+          <p className='experince-ps'>CSS3</p>
+          <p className='experince-ps'>Typscript</p>
+          <p className='experince-ps'>JavaScript</p>
+          <p className='experince-ps'>React.js</p>
+          <p className='experince-ps'>Next.js</p>
+          <p className='experince-ps'>Express</p>
+          <p className='experince-ps'>Node.js</p>
+          <p className='experince-ps'>PHP</p>
+          <p className='experince-ps'>Laravel</p>
+          <p className='experince-ps'>Mongo DB</p>
+          <p className='experince-ps'>MY SQL</p>
+        </div>
+        </div>
+       </div>
+
+
+
+       <div className="experince-types">
+        <div className="experinceflex-gap">
+
+     
+        <div className="experince-inner">
+          <p>2024-present</p>
+          <p>UI/UX Designer</p>
+        </div>
+
+        <div className="experince-alltypes">
+          <p className='experince-ds'>Figma</p>
+          <p className='experince-ds'>ADobe XD</p>  
+        </div>
+        </div>
+       </div>
+
+
+
+       <div className="education-map-container">
+        <h3>Education</h3>
+       </div>
+
+       <div className="education-type">
+        
+        <div className="experinceflex-gap">
+
+     
+        <div className="education-inner">
+          <p>2023-2024</p>
+          <p className='experincetype'>Uncommon.org</p>
+          <p className='experince-bcamp'>Bootcamp</p>
+          
+          <div className="experince-bootcamp">
+            <p>Certificate</p>
+            <p>Software Engineer</p>
+          </div>
+        </div>
+
+        <div className="experince-alltypes">
+          <p className='education-full'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odit, praesentium eveniet perferendis illum culpa qui corrupti nostrum consectetur eum est ducimus quia repellendus asperiores tempora quo ullam animi enim.</p>
+        </div>
+        </div>
+       </div>
+
+
     </div>
   )
 }

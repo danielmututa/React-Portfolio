@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Sling as Hamburger } from 'hamburger-react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 
 
@@ -29,16 +29,12 @@ const Menu = () => {
          
                 
          <Link 
-            activeClass="active" 
-            to="contact" 
-            spy={true} 
-            smooth={true} 
-            duration={500}
+             
+            to="/home" 
             className="navvbar--link-menu" 
-            offset={50} 
-            delay={0}
+           
           >
-            <div className='navbar-p-color'>P</div>ortfolio
+            <div className='navbar-p-color'>D</div>mututa
           </Link>
 
 
@@ -55,41 +51,21 @@ const Menu = () => {
                 <ul className="height--menu">
                 <li onClick={handleClose}> <Link 
                 onClick={handleClose}
-                activeClass="active" 
-                to="home-container" 
-                spy={true} 
-                smooth={true} 
-                duration={500} 
-                offset={50} 
-                delay={0}
+                to="/home" 
                 >Home</Link></li>
 
 
 
-                <li onClick={handleClose}><Link 
-                onClick={handleClose}
-                activeClass="active" 
-            to="about--allcontainer" 
-            spy={true} 
-            smooth={true} 
-            duration={700} 
-            offset={50} 
-            delay={0}
-                className="white" >About</Link></li>
+                
 
 
 
           <li onClick={handleClose}><Link 
           onClick={handleClose}
           activeClass="active" 
-            to="portfolio--all-container" 
-            spy={true} 
-            smooth={true} 
-            duration={1000} 
-            offset={50} 
-            delay={0}
-          
-          className="white" >Portfolio</Link></li>
+            to="/resume" 
+            
+          className="white" >Resume</Link></li>
 
 
 
@@ -97,28 +73,16 @@ const Menu = () => {
           
           onClick={handleClose}
           activeClass="active" 
-            to="experience--container" 
-            spy={true} 
-            smooth={true} 
-            duration={1500} 
-            offset={50} 
-            delay={0}
-          
-          
-          
-          className="white" >Experience</Link></li>
+            to="/projects" 
+            className="white" >Projects</Link></li>
 
 
 
           <li onClick={handleClose}> <Link 
           onClick={handleClose}
           activeClass="active" 
-          to="contact--container" 
-          spy={true} 
-          smooth={true} 
-          duration={1500} 
-          offset={50} 
-          delay={0}
+          to="/contact" 
+          
           className="white" >Contact</Link></li>
                 </ul>
             </div>

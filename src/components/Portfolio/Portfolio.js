@@ -24,8 +24,9 @@ const Portfolio = () => {
 
 
   return (
+    <div className="portfolio-cover">
     <div id='portfolio--all-container'>
-      <h2>PORTFOLIO</h2>
+      <h2>PROJECTS</h2>
 
   <div className="portfolio--allfiteringbtns">
       <div className="portfolio-btn"> <button onClick={() => setItems(Datafile)}>All</button> </div>
@@ -41,7 +42,7 @@ const Portfolio = () => {
             items.map((item,index)=>(
 
                 <div className="portfolio--map" key={index}>
-                  <img src={require('../images/' + item.img)} alt="" className="porfolio-img" />
+                  <div className="portfolio-w-flex">
                   <div className="portfolio--cover">
                     <p>{item.name}</p>
                   </div>
@@ -57,12 +58,22 @@ const Portfolio = () => {
 
                     >{item.button} </button>
                   </div>
+                  </div>
+
+                  <img src={require('../images/' + item.img)} alt="" className="porfolio-img" />
                 </div>
             ))
         }
       </div>
-   
     
+    
+
+
+    </div>
+    <div className="portfolio-contactme">
+      <p>Let's build something together</p>
+      <button className='w'>Contact me</button>
+    </div>
 
     </div>
   )
