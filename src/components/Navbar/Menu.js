@@ -30,7 +30,7 @@ const Menu = () => {
                 
          <Link 
              
-            to="/home" 
+            to="/" 
             className="navvbar--link-menu" 
            
           >
@@ -51,7 +51,7 @@ const Menu = () => {
                 <ul className="height--menu">
                 <li onClick={handleClose}> <Link 
                 onClick={handleClose}
-                to="/home" 
+                to="/" 
                 >Home</Link></li>
 
 

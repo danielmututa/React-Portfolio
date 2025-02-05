@@ -21,7 +21,7 @@ function App() {
  <Menu/>
 <Routes>
 
-<Route path='/home' element={<Home/>}/>
+<Route path='/' element={<Home/>}/>
   <Route path='/projects' element={<Portfolio/>}/>
   <Route path='/contact' element={<Contact/>}/>
   <Route path='/resume' element={<Experience/>}/>

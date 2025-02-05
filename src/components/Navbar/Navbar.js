@@ -12,7 +12,7 @@ const Navbar = () => {
     {/* <div className="navbar-logo">  */}
     <div  className= 'navbar-logo'> 
 
-    <Link to='/home' className="navbar--p-c">
+    <Link to='/' className="navbar--p-c">
             <div className='navbar-p-color'>D</div>
             <span className="portfolio-text">mututa</span>
             {/* <div className='navbar-p-color'>P</div>ortfolio */}
@@ -23,7 +23,7 @@ const Navbar = () => {
         
         <div className="navbar--alllinks">
 
-        <Link to="/home" >
+        <Link to="/" >
             Home
           </Link>
 
