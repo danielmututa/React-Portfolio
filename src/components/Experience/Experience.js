@@ -106,7 +106,9 @@ const Experience = () => {
         </div>
 
         <div className="experince-alltypes">
-          <p className='education-full'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odit, praesentium eveniet perferendis illum culpa qui corrupti nostrum consectetur eum est ducimus quia repellendus asperiores tempora quo ullam animi enim.</p>
+          <p className='education-full'>Successfully completed the Software Engineering Bootcamp at Uncommon.org.
+Gained expertise in web development, React, JavaScript, and RESTful APIs.
+Developed hands-on projects to strengthen problem-solving and coding skills.</p>
         </div>
         </div>
        </div>
