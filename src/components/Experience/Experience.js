@@ -3,14 +3,14 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Experience = () => {
 
-  const experince = [
-    {img:"HTML5.png" , type:'HTML5'},
-    {img:"CSS3.png" , type:'CSS3'},
-    {img:"JAVASCRIPT.png" , type:'JAVASCRIPT'},
-    {img:"REACT.png" , type:'REACT'},
-    {img:"NODE.JS.png" , type:'NODE.JS'},
-    {img:"MONGODB.png" , type:'MONGODB'}
-  ]
+  // const experince = [
+  //   {img:"HTML5.png" , type:'HTML5'},
+  //   {img:"CSS3.png" , type:'CSS3'},
+  //   {img:"JAVASCRIPT.png" , type:'JAVASCRIPT'},
+  //   {img:"REACT.png" , type:'REACT'},
+  //   {img:"NODE.JS.png" , type:'NODE.JS'},
+  //   {img:"MONGODB.png" , type:'MONGODB'}
+  // ]
 
   return (
     <div id='experience--container'>

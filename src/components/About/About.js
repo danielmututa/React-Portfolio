@@ -1,21 +1,21 @@
 import React from 'react'
 import one from '../images/Me.jpg'
-import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
-import { Link } from 'react-router-dom'
+// import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
+// import { Link } from 'react-router-dom'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const About = () => {
 
-  const handleDownloadCV = () => {
- // Create a link element
- const link = document.createElement('a');
- link.href = danielcv;
- link.download = 'Daniel Mutandwa Mututa CV.pdf';
- document.body.appendChild(link);
- link.click();
- document.body.removeChild(link); 
-};
+//   const handleDownloadCV = () => {
+//  // Create a link element
+//  const link = document.createElement('a');
+//  link.href = danielcv;
+//  link.download = 'Daniel Mutandwa Mututa CV.pdf';
+//  document.body.appendChild(link);
+//  link.click();
+//  document.body.removeChild(link); 
+// };
 
 
 
