@@ -15,7 +15,7 @@
         id:'2',
         button:'View Website ',
         name:'SPEEDBIKES',
-        description:'Rev up your ride! SPEEDBIKES e-commerce platform offering motorbikes, bicycles, genuine parts, and accessories, built with React, Node.js, Express, and MongoDB. Launching in 30 days!',
+        description:'Rev up your ride! SPEEDBIKES e-commerce platform offering motorbikes, bicycles, genuine parts, and accessories, built with React, Node.js, Express, and MongoDB.',
         img:'speedbike.jpg',
         type:'personal projects',
         link:'https://speedbikes.netlify.app'
@@ -62,15 +62,15 @@
         link:'https://kambuzuma-vanlife.netlify.app'
     },
     
-    {
-        id:'7',
-        button:'comming soon ',
-        name:'TechRevive',
-        description:'VANS e-commerce platform, built collaboratively using React for dynamic interfaces, Node.js for server-side logic, MongoDB for scalable data storage, and agile development methodologies for optimal results',
-        img:'van-life.png',
-        type:'comming soon',
-        link:'https://kambuzuma-vanlife.netlify.app'
-    },
+    // {
+    //     id:'7',
+    //     button:'comming soon ',
+    //     name:'TechRevive',
+    //     description:'VANS e-commerce platform, built collaboratively using React for dynamic interfaces, Node.js for server-side logic, MongoDB for scalable data storage, and agile development methodologies for optimal results',
+    //     img:'van-life.png',
+    //     type:'comming soon',
+    //     link:'https://kambuzuma-vanlife.netlify.app'
+    // },
     
 
    
