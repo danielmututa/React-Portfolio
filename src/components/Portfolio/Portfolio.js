@@ -4,6 +4,13 @@ import { useNavigate } from 'react-router-dom';
 
 const Portfolio = () => {
 
+
+const truncateText = (text, maxLength) => {
+  if (text.length <= maxLength) return text;
+  return text.slice(0, maxLength) + '...';
+};
+
+
     const [items, setItems] = useState(Datafile);
 
     const filterItem = (type) => {
@@ -53,7 +60,9 @@ const Portfolio = () => {
                     <p>{item.name}</p>
                   </div>
                   <div className="portfolio-des-view">
-                    <p>{item.description}</p>
+                    {/* <p>{item.description}</p> */}
+                    <p>{truncateText(item.description, 160)}</p>  
+
 
                     <button
                      onClick={() => handleButtonClick(item.link)}
@@ -63,6 +72,7 @@ const Portfolio = () => {
                      className={!item.link ? 'disabled-button' : ''}
 
                     >{item.button} </button>
+                    
                   </div>
                   </div>
 

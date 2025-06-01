@@ -1,7 +1,26 @@
  
  const Database = [
-    
-    {
+
+   {
+  id: '7',
+  button: 'View Website',
+  name: 'DIMBO User Site (In Progress)',
+  description: `Still in process! DIMBO User Site is built with React and TailwindCSS. Users can browse products, add to cart, purchase, comment, filter, and interact with AI to explore available items.`,
+  img: 'dimbo-puserssite-.png',
+  type: 'personal projects',
+  link: 'https://dimbop-users-site.vercel.app'
+},
+
+{
+  id: '8',
+  button: 'View Dashboard',
+  name: 'DIMBO Marketers Dashboard (In Progress)',
+  description: `Still in process! DIMBO Dashboard is built with React, TailwindCSS, Node.js, and Fastify. It lets marketers manage products/blogs, track payments, filter user comments, view users, and generate reports. Security includes Zod validation, bcrypt hashing, and token-based session control.`,
+  img: 'dimbo-p.png',
+  type: 'personal projects',
+  link: 'https://dimbop-digital-marketing-dashboard.vercel.app'
+},
+{
         id:'1',
         button:'CommingSoon',
         name:'OMINIVIEW',
@@ -62,15 +81,9 @@
         link:'https://kambuzuma-vanlife.netlify.app'
     },
     
-    // {
-    //     id:'7',
-    //     button:'comming soon ',
-    //     name:'TechRevive',
-    //     description:'VANS e-commerce platform, built collaboratively using React for dynamic interfaces, Node.js for server-side logic, MongoDB for scalable data storage, and agile development methodologies for optimal results',
-    //     img:'van-life.png',
-    //     type:'comming soon',
-    //     link:'https://kambuzuma-vanlife.netlify.app'
-    // },
+ 
+
+
     
 
    
