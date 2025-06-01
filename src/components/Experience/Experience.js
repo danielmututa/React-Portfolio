@@ -1,6 +1,9 @@
 import React from 'react'
 // import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
 import mycv from "../images/Daniel Mutandwa Mututa CV 1.pdf"
+import computing from "../images/describe claude computing.pdf"
+import computingtype from "../images/describe.pdf"
+import servicetypes from "../images/Achievements - danielmututa-5357 _ Microsoft Learn.pdf"
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Experience = () => {
@@ -25,6 +28,38 @@ const Experience = () => {
  link.click();
  document.body.removeChild(link); 
 };
+
+    const Cloudservicetype = () => {
+ // Create a link element
+ const link = document.createElement('a');
+ link.href = servicetypes;
+ link.download = 'Daniel Mutandwa Mututa CV.pdf';
+ document.body.appendChild(link);
+ link.click();
+ document.body.removeChild(link); 
+};
+
+    const Cloudcomputing = () => {
+ // Create a link element
+ const link = document.createElement('a');
+ link.href = computing;
+ link.download = 'Daniel Mutandwa Mututa CV.pdf';
+ document.body.appendChild(link);
+ link.click();
+ document.body.removeChild(link); 
+};
+
+    const Computtingtype = () => {
+ // Create a link element
+ const link = document.createElement('a');
+ link.href = computingtype;
+ link.download = 'Daniel Mutandwa Mututa CV.pdf';
+ document.body.appendChild(link);
+ link.click();
+ document.body.removeChild(link); 
+};
+
+    
 
 
 
@@ -161,6 +196,40 @@ Gained hands-on experience with web scraping, processing over 5,000 legal docume
           <p className='education-full'>Successfully completed the Software Engineering Bootcamp at Uncommon.org.
 Gained expertise in web development, React, JavaScript, and RESTful APIs.
 Developed hands-on projects to strengthen problem-solving and coding skills.</p>
+        </div>
+        </div>
+       </div>
+
+
+
+
+
+
+
+       <div className="education-type">
+        
+        <div className="experinceflex-gap">
+
+     
+        <div className="education-inner">
+          <p>2025-present</p>
+          <p className='experincetype'>Microsoft Learn</p>
+          <p className='experince-bcamp'></p>
+          
+          <div className="experince-bootcamp">
+            <p>Badges</p>
+            <p>Software Engineer</p>
+          </div>
+        </div>
+
+        <div className="experince-alltypes">
+          <p className='education-full'>I'm proud to have earned several official badges from Microsoft, demonstrating my commitment to continuous learning and growth in the tech industry. These badges validate my foundational and practical knowledge in various areas of technology, such as 
+            <span className='experince-badges' onClick={Cloudcomputing}> cloud computing</span>,
+            
+               <span className='experince-badges' onClick={Cloudservicetype}> cloud types</span>, and
+            
+               <span className='experince-badges' onClick={ Computtingtype}> benefites of usind cloud service types</span>
+            </p>
         </div>
         </div>
        </div>

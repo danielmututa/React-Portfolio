@@ -915,10 +915,24 @@ font-family: 'Montserrat-Regular.ttf';
     flex-direction: column;
 }
 
+
+.experince-badges{
+ font-style: italic;
+    font-family: 'Montserrat-Regular.ttf';
+    color: #2C3E50;
+    cursor: pointer;
+}
+
+ .experince-badges:hover{
+    color: #E4462B;
+    transition: 0.5s;
+}
+
 .experince-font-italic{
     font-style: italic;
     font-family: 'Montserrat-Regular.ttf';
     color: #2C3E50;
+   
 }
 
 #experience--container h2{
