@@ -49,21 +49,34 @@ const Experience = () => {
 
         <div className="experince-alltypes">
           <p className='experince-ps'>HTML5</p>
-          <p className='experince-ps'>Tailwind</p>
           <p className='experince-ps'>CSS3</p>
+          <p className='experince-ps'>Tailwind</p>
           <p className='experince-ps'>Typscript</p>
           <p className='experince-ps'>JavaScript</p>
           <p className='experince-ps'>React.js</p>
           <p className='experince-ps'>Next.js</p>
-          <p className='experince-ps'>Express</p>
           <p className='experince-ps'>Node.js</p>
+          <p className='experince-ps'>Express</p>
+          <p className='experince-ps'>Fastify</p>
           <p className='experince-ps'>PHP</p>
           <p className='experince-ps'>Laravel</p>
           <p className='experince-ps'>Mongo DB</p>
           <p className='experince-ps'>MY SQL</p>
+          <p className='experince-ps'>PostgreSQL</p>
+          <p className='experince-ps'>Zod</p>
+          <p className='experince-ps'>bcrypt</p>
         </div>
         </div>
        </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -82,6 +95,40 @@ const Experience = () => {
         </div>
         </div>
        </div>
+
+
+
+
+{/* experince working  */}
+
+  <div className="education-type">
+        
+        <div className="experinceflex-gap">
+
+     
+        <div className="education-inner">
+          <p>2025</p>
+          <p>03/03/25 - 05/31/25</p>
+          <p className='experincetype'>Procode Platform</p>
+         <p className='experince-bcamp'>Frontend Developer</p>
+          <p className='experince-bcamp'>Contract</p>
+          
+          
+        </div>
+
+        <div className="experince-alltypes">
+          <p className='education-full'>Designed and integrated Caserover, an AI-powered web solution for lawyers using React, TypeScript, TailwindCSS, and Node.js. Applied Zod for secure and efficient input validation, ensuring strong data integrity. Collaborated with backend developers to deliver a seamless and responsive user experience.
+</p>
+        </div>
+        </div>
+       </div>
+
+{/* end experinece working */}
+
+
+
+
+
 
 
 
@@ -114,6 +161,15 @@ Developed hands-on projects to strengthen problem-solving and coding skills.</p>
        </div>
 
 
+
+
+
+
+       {/* <div className="education-map-container">
+        <h3>Education</h3>
+       </div> */}
+
+     
     </div>
   )
 }
