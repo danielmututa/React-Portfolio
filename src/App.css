@@ -915,6 +915,12 @@ font-family: 'Montserrat-Regular.ttf';
     flex-direction: column;
 }
 
+.experince-font-italic{
+    font-style: italic;
+    font-family: 'Montserrat-Regular.ttf';
+    color: #2C3E50;
+}
+
 #experience--container h2{
     margin-bottom: 35px;
     font-size: 40px;

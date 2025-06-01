@@ -118,7 +118,11 @@ const Experience = () => {
         </div>
 
         <div className="experince-alltypes">
-          <p className='education-full'>Designed and integrated Caserover, an AI-powered web solution for lawyers using React, TypeScript, TailwindCSS, and Node.js. Applied Zod for secure and efficient input validation, ensuring strong data integrity. Collaborated with backend developers to deliver a seamless and responsive user experience.
+          <p className='education-full'>
+            Designed and integrated Caserover, an AI-powered web solution for lawyers using React, TypeScript, TailwindCSS, and Node.js. Applied Zod for secure and efficient input validation, ensuring strong data integrity. Collaborated with backend developers to deliver a seamless and responsive user experience.
+            <span className='experince-font-italic'>
+Gained hands-on experience with web scraping, processing over 5,000 legal documents and converting them into PDFs using Python3.
+</span>
 </p>
         </div>
         </div>
