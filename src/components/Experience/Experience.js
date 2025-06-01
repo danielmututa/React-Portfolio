@@ -1,5 +1,6 @@
 import React from 'react'
-import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
+// import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
+import mycv from "../images/Daniel Mutandwa Mututa CV 1.pdf"
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Experience = () => {
@@ -18,7 +19,7 @@ const Experience = () => {
     const handleDownloadCV = () => {
  // Create a link element
  const link = document.createElement('a');
- link.href = danielcv;
+ link.href = mycv;
  link.download = 'Daniel Mutandwa Mututa CV.pdf';
  document.body.appendChild(link);
  link.click();
