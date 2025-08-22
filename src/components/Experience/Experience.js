@@ -98,9 +98,11 @@ const Experience = () => {
           <p className='experince-ps'>Laravel</p>
           <p className='experince-ps'>Mongo DB</p>
           <p className='experince-ps'>MY SQL</p>
+          <p className='experince-ps'>GraphQL</p>
           <p className='experince-ps'>PostgreSQL</p>
           <p className='experince-ps'>Zod</p>
           <p className='experince-ps'>bcrypt</p>
+          <p className='experince-ps'>Argon2</p>
         </div>
         </div>
        </div>
