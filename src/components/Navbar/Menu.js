@@ -49,11 +49,7 @@ const Menu = () => {
 
         <div className={`menu-list ${isOpen ? 'show' : ''}`} role="navigation" aria-label="Main Menu">
                 <ul className="height--menu">
-                <li onClick={handleClose}> <Link 
-                onClick={handleClose}
-                to="/" 
-                    className="white"
-                >Home</Link></li>
+                
 
 
 

@@ -23,9 +23,7 @@ const Navbar = () => {
         
         <div className="navbar--alllinks">
 
-        <Link to="/" >
-            Home
-          </Link>
+        
 
           <Link to="/resume" >
             Resume

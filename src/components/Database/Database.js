@@ -4,22 +4,13 @@
    {
   id: '7',
   button: 'View Website',
-  name: 'DIMBO User Site (In Progress)',
-  description: `Still in process! DIMBO User Site is built with React and TailwindCSS. Users can browse products, add to cart, purchase, comment, filter, and interact with AI to explore available items.`,
-  img: 'dimbo-puserssite-.png',
-  type: 'personal projects',
-  link: 'https://dimbop-users-site.vercel.app'
-},
-
-{
-  id: '8',
-  button: 'View Dashboard',
-  name: 'DIMBO Marketers Dashboard (In Progress)',
-  description: `Still in process! DIMBO Dashboard is built with React, TailwindCSS, Node.js, and Fastify. It lets marketers manage products/blogs, track payments, filter user comments, view users, and generate reports. Security includes Zod validation, bcrypt hashing, and token-based session control.`,
-  img: 'dimbo-p.png',
+  name: 'Multimart Online Shop',
+  description: `Multimart is a user-friendly e-commerce platform built with React and TailwindCSS, designed to make online shopping effortless. Browse products, add to cart, purchase securely, and leave reviews—all in one place. With door-to-door delivery, customers enjoy a seamless experience from click to delivery. Perfect for businesses looking to expand their reach online, Multimart helps you sell products like you do on Facebook, with easy uploads and daily updates`,
+  img: 'iphone 14 acessories.jpeg',
   type: 'personal projects',
   link: 'https://dimbop-digital-marketing-dashboard.vercel.app'
 },
+
 {
         id:'1',
         button:'CommingSoon',
@@ -32,22 +23,22 @@
 
     {
         id:'2',
-        button:'View Website ',
-        name:'SPEEDBIKES',
-        description:'Rev up your ride! SPEEDBIKES e-commerce platform offering motorbikes, bicycles, genuine parts, and accessories, built with React, Node.js, Express, and MongoDB.',
-        img:'speedbike.jpg',
+        button:'View Website',
+        name:'ASTROMOBILES',
+        description:'Astro mobiles are a brand of smartphones and mobile devices, primarily associated with V3 Mobile and Mobicel in certain regions. In Zimbabwe, Astro Mobile is actually an IT services company offering mobile phone services, telecommunications, and communication solutions.',
+        img:'astro note 13 max.png',
         type:'personal projects',
-        link:'https://speedbikes.netlify.app'
+        link:'https://astromobiles.vercel.app/'
     },
 
     {
         id:'3',
         button:'View Website ',
-        name:'TIGZOZ',
-        description:'Showcasing innovative web development techniques, TIGZOZ combines HTML, CSS, and JavaScript for a seamless blend of aesthetics and functionality.',
-        img:'tigzoz.jpg',
+        name:'ZIMNEXT-SOLUTIONS',
+        description:'Zimnext Solutions is a Zimbabwe-based company that offers innovative web development, digital marketing, and tech solutions tailored to local and international clients. They specialize in creating custom websites, mobile apps, and branding services. You can visit their website or contact them directly to learn more about their services.',
+        img:'2 (1).png',
          type:'personal projects',
-        link:'https://danielmututa.github.io/Tigzozo/'
+        link:'https://zimnext-solutions.vercel.app/'
     },
    
     {
@@ -59,34 +50,15 @@
         type:'personal projects',
         link:'https://danielmututa.github.io/Bootstrape-portfolio/'
     },
-    
-    
     {
         id:'5',
-        button:'View Website ',
-        name:'STYLISH PORTFOLIO',
-        description:'A showcase of sophistication and style, this portfolio project combines HTML, CSS, and JavaScript to create a captivating and professional online experience',
-        img:'stylish-portfolio.jpg',
-         type:'personal projects',
-        link:'https://danielmututa.github.io/Stylish-Portfolio/'
-    },
-    
-    {
-        id:'6',
-        button:'View Website ',
-        name:'VANS',
-        description:'VANS e-commerce platform, built collaboratively using React for dynamic interfaces, Node.js for server-side logic, MongoDB for scalable data storage, and agile development methodologies for optimal results',
-        img:'van-life.png',
+        button:'Download app',
+        name:'PREPAID LOCK UP',
+        description:'Still developing a secure Prepaid Lock Up feature for smartphones, designed to protect your device and data. The system will allow you to lock your device remotely using its IMEI, location, or phone number.',
+        img:'phone screen set.png',
         type:'collaboration',
-        link:'https://kambuzuma-vanlife.netlify.app'
+        
     },
-    
- 
-
-
-    
-
-   
 ];
 
 

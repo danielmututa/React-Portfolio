@@ -103,6 +103,7 @@ const Experience = () => {
           <p className='experince-ps'>Zod</p>
           <p className='experince-ps'>bcrypt</p>
           <p className='experince-ps'>Argon2</p>
+          <p className='experince-ps'>React Native</p>
         </div>
         </div>
        </div>
@@ -149,7 +150,7 @@ const Experience = () => {
           <p>03/03/25 - 05/31/25</p>
           <p className='experincetype'>Procode Platform</p>
          <p className='experince-bcamp'>Frontend Developer</p>
-          <p className='experince-bcamp'>Contract</p>
+          <p className='experince-bcamp'>Contract - 3 months</p>
           
           
         </div>
@@ -159,6 +160,38 @@ const Experience = () => {
             Designed and integrated Caserover, an AI-powered web solution for lawyers using React, TypeScript, TailwindCSS, and Node.js. Applied Zod for secure and efficient input validation, ensuring strong data integrity. Collaborated with backend developers to deliver a seamless and responsive user experience.
             <span className='experince-font-italic'>
 Gained hands-on experience with web scraping, processing over 5,000 legal documents and converting them into PDFs using Python3.
+</span>
+</p>
+        </div>
+        </div>
+       </div>
+
+{/* end experinece working */}
+
+
+{/* experince working  */}
+
+  <div className="education-type">
+        
+        <div className="experinceflex-gap">
+
+     
+        <div className="education-inner">
+          <p>2025</p>
+          <p>10/12/25 - 11/14/25</p>
+          <p className='experincetype'>Algebra Technologies</p>
+         <p className='experince-bcamp'>Full Stack-Developer</p>
+          <p className='experince-bcamp'>Contract - 6 months</p>
+         
+          
+          
+        </div>
+
+        <div className="experince-alltypes">
+          <p className='education-full'>
+           I gained experience using Android Studio with Java and Kotlin for app development. I also worked on creating websites and provided technical support
+            <span className='experince-font-italic'>
+(email management, PC troubleshooting, Windows installation). This role improved my communication and project management skills.
 </span>
 </p>
         </div>
