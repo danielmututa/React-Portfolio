@@ -1,11 +1,12 @@
 import React from 'react'
 // import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
-import mycv from "../images/Daniel Mutandwa Mututa CV (4).pdf"
+import mycv from "../images/Daniel Mutandwa Mututa CV (8).pdf"
 import computing from "../images/describe claude computing.pdf"
 import computingtype from "../images/describe.pdf"
 import servicetypes from "../images/Achievements - danielmututa-5357 _ Microsoft Learn.pdf"
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const Experience = () => {
 
   // const experince = [
