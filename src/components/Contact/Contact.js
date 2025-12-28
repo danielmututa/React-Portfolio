@@ -10,7 +10,7 @@ const Contact = () => {
     const contactsection = [
         {icon:faPhone, name:'Phone' , type:'+263-775306263'},
         {icon: faEnvelope, name:'Email' , type:'mututadaniel54@gmail.com'},
-        {icon:faLocationDot, name:'Location' , type:'29-13th Crescent Warren Park 2'}
+        {icon:faLocationDot, name:'Location' , type:'Harare'}
     ]
   
 

@@ -69,6 +69,7 @@ const Home = () => {
 
      
       <div className="home-text-typing">
+       
         <h1>Daniel Mututa</h1>
         <p className="front">I'm a <span ref={textRef}></span></p>   {/* Add class 'front' to the p tag */}
       </div>

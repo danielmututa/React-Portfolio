@@ -30,6 +30,8 @@
     height: 49px;
   
   }
+
+ 
   
   
   .position--fixed{
@@ -1011,7 +1013,7 @@ font-family: 'Montserrat-Bold.ttf';
 
 .experince-ps{
 
-    width: 80px;
+    width: 100px;
     border: 1px solid #2C3E50;
     font-family:'Montserrat-Regular.ttf' ;
     display: flex;
@@ -1022,6 +1024,10 @@ font-family: 'Montserrat-Bold.ttf';
    
 
 }
+
+/* .experience-daniel{
+
+} */
 
 .experince-ds{
     width: 80px;

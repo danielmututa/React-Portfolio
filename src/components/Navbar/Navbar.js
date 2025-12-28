@@ -14,6 +14,7 @@ const Navbar = () => {
 
     <Link to='/' className="navbar--p-c">
             <div className='navbar-p-color'>D</div>
+            
             <span className="portfolio-text">mututa</span>
             {/* <div className='navbar-p-color'>P</div>ortfolio */}
           </Link>

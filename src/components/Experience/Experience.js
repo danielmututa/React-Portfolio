@@ -1,6 +1,6 @@
 import React from 'react'
 // import danielcv from "../images/Daniel Mutandwa Mututa CV.pdf"
-import mycv from "../images/Daniel Mutandwa Mututa CV (8).pdf"
+import mycv from "../images/Daniel Mutandwa Mututa CV (.1).pdf"
 import computing from "../images/describe claude computing.pdf"
 import computingtype from "../images/describe.pdf"
 import servicetypes from "../images/Achievements - danielmututa-5357 _ Microsoft Learn.pdf"
@@ -24,7 +24,7 @@ const Experience = () => {
  // Create a link element
  const link = document.createElement('a');
  link.href = mycv;
- link.download = 'Daniel Mutandwa Mututa CV.pdf';
+ link.download = 'Daniel Mutandwa Mututa CV (.1).pdf';
  document.body.appendChild(link);
  link.click();
  document.body.removeChild(link); 
@@ -97,6 +97,7 @@ const Experience = () => {
           <p className='experince-ps'>Fastify</p>
           <p className='experince-ps'>PHP</p>
           <p className='experince-ps'>Laravel</p>
+          <p className='experince-ps'>Java</p>
           <p className='experince-ps'>Mongo DB</p>
           <p className='experince-ps'>MY SQL</p>
           <p className='experince-ps'>GraphQL</p>
@@ -105,6 +106,8 @@ const Experience = () => {
           <p className='experince-ps'>bcrypt</p>
           <p className='experince-ps'>Argon2</p>
           <p className='experince-ps'>React Native</p>
+          <p className='experince-ps'>AndroidStudio</p>
+          {/* <p className='experince-ps'>AndroidStudio</p> */}
         </div>
         </div>
        </div>
@@ -131,7 +134,8 @@ const Experience = () => {
 
         <div className="experince-alltypes">
           <p className='experince-ds'>Figma</p>
-          <p className='experince-ds'>ADobe XD</p>  
+          <p className='experince-ds'>ADobe XD</p>
+                    <p className='experince-ps'>PhotoShop</p>  
         </div>
         </div>
        </div>
@@ -148,7 +152,7 @@ const Experience = () => {
      
         <div className="education-inner">
           <p>2025</p>
-          <p>03/03/25 - 05/31/25</p>
+          <p>03/03/25 - 31/05/25</p>
           <p className='experincetype'>Procode Platform</p>
          <p className='experince-bcamp'>Frontend Developer</p>
           <p className='experince-bcamp'>Contract - 3 months</p>
@@ -179,7 +183,7 @@ Gained hands-on experience with web scraping, processing over 5,000 legal docume
      
         <div className="education-inner">
           <p>2025</p>
-          <p>10/12/25 - 11/14/25</p>
+          <p>12/10/25 - current</p>
           <p className='experincetype'>Algebra Technologies</p>
          <p className='experince-bcamp'>Full Stack-Developer</p>
           <p className='experince-bcamp'>Contract - 6 months</p>

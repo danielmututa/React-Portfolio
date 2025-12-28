@@ -28,7 +28,7 @@
         description:'Astro mobiles are a brand of smartphones and mobile devices, primarily associated with V3 Mobile and Mobicel in certain regions. In Zimbabwe, Astro Mobile is actually an IT services company offering mobile phone services, telecommunications, and communication solutions.',
         img:'astro note 13 max.png',
         type:'personal projects',
-        link:'https://astromobiles.vercel.app/'
+        link:'https://astromobile.io'
     },
 
     {
