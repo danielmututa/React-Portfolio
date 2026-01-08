@@ -38,7 +38,7 @@
         description:'Zimnext Solutions is a Zimbabwe-based company that offers innovative web development, digital marketing, and tech solutions tailored to local and international clients. They specialize in creating custom websites, mobile apps, and branding services. You can visit their website or contact them directly to learn more about their services.',
         img:'2 (1).png',
          type:'personal projects',
-        link:'https://zimnext-solutions.vercel.app/'
+        link:'http://zimnextsolutions.co.zw/'
     },
    
     {
