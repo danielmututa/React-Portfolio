@@ -4,7 +4,7 @@
    {
   id: '7',
   button: 'View Website',
-  name: 'Multimart Online mmmm',
+  name: 'Multimart Online Shop',
   description: `Multimart is a user-friendly e-commerce platform built with React and TailwindCSS, designed to make online shopping effortless. Browse products, add to cart, purchase securely, and leave reviews—all in one place. With door-to-door delivery, customers enjoy a seamless experience from click to delivery. Perfect for businesses looking to expand their reach online, Multimart helps you sell products like you do on Facebook, with easy uploads and daily updates`,
   img: 'iphone 14 acessories.jpeg',
   type: 'personal projects',
